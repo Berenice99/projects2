@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Berenice's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="home.css">	
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+        <div class="container">
+          <div class="header">
+          <h text-align="center">BERENICE UWERA.R</h>
+          <div id="mySidenav" class="sidenav">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <a href="#">Home</a>
+              <a href="#">About Me</a>
+              <a href="#">Contact Me</a>
+          </div>
+            <span style="font-size:30px;cursor:pointer" onclick="menuNav()">&#9776; menu</span>
+            
+            <script>
+            function menuNav() {
+              document.getElementById("mySidenav").style.width = "250px";
+            }
+            
+            function closeNav() {
+              document.getElementById("mySidenav").style.width = "0";
+            }
+            </script>
+               
+            </div><hr>
+              <!-- Photo grid -->
+                  <div id="align-box">
+                    <div class="img">
+                      <img src="file:///home/wecode/Downloads/IMG-20190711-WA0001%20(1).jpg" style="width:30%" onclick="onClick(this)" alt="Berenice">
+                      <img src="file:///home/wecode/Downloads/IMG-20190712-WA0001.jpg" style="width:30%" onclick="onClick(this)" alt="forward to my future">
+                      <img src="file:///home/wecode/Downloads/IMG-20190711-WA0002%20(1).jpg" style="width:30%" onclick="onClick(this)" alt="wecode">
+                   </div></div>
+                    
+                  
+                  <!-- Modal for full size images on click-->
+                  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+                    <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
+                    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+                      <img id="img01" class="w3-image">
+                      <p id="caption"></p>
+                    </div>
+                  </div>
+                
+                  <!-- About section -->
+                  <div class="about">
+                    <h4 text-align="center"><b>About Me</b></h4>
+                    <!--<img src="file:///home/wecode/Downloads/IMG-20190712-WA0003.jpg" alt="Me" class="w3-image w3-padding-32" width="600" height="650">-->
+                      <h4>Berenice</h4>
+                      <p text-align="center"> Hi,i am hardworking lady and i love when my fingers are typing on my laptop. i finished my hight school last year(2018) and i was doing MCE(Maths,Economics and computer scince).
+                        Seeing ICT growing in Rwanda every day, it's hard to ignore all the possibilities for our future! that's why i choose MCE combination in high school.
+                        My purpose is to become a role model for others, and become a living testimony of what women can achieve.
+                        One of my biggest dreams is to see a greater number of girls in the software field, and i choose Moringa school to learn more about program.
+                        One day I hope to establish an academy that will focus on helping youth discover their latent talent and develop the can-do spirit that I have.
+                        I am looking forward for more skills about software in university more training and more internaship inorder to grow tall in programing.
+                        All in all i believe that Moringa School opened a door for me towards my dream, which is to see change in my society."
+                      </p>
+                      <p>mail:ubernicerwanda@gmail.com</p>
+                      <p>tel:(+250)-783-986-973</p>
+                    </div> 
+                
+                      
+                  <!-- Contact section -->
+                  <h3>Contact Me</h3>
+
+                  <div class="container1">
+                    <form action="/action_page.php">
+                      <label for="fname">First Name</label>
+                      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  
+                      <label for="lname">Last Name</label>
+                      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                  
+                      <label for="country">Country</label>
+                      <select id="country" name="country">
+                        <option value="rwanda">Rwanda</option>
+                        <option value="kenya">Kenya</option>
+                        <option value="uganda">Uganda</option>
+                      </select>
+                  
+                      <label for="subject">Subject</label>
+                      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                  
+                      <input type="submit" value="Submit">
+                    </form>
+                  </div>
+                  
+                  <!-- Footer -->
+                  <div class="footer">
+                      <h>Get In Touch</h>
+                      <a href="#" class="fa fa-facebook"></a>
+                      <a href="#" class="fa fa-twitter"></a>
+                      <a href="#" class="fa fa-instagram"></a>
+                    <p>Email address:ubernicerwanda@gmail.com</p>
+                        <p></p>
+                      </div>
+                      
+                
+</body>
+</html>
